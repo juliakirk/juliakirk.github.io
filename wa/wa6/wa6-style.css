@@ -1,0 +1,58 @@
+html{
+    background: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: sans-serif;
+} 
+.overlay1 {
+    border-radius: 10px;
+    position: top left;
+    top: 10;
+    left: 1;
+    width: 20em;
+    height: 14em;
+    z-index: 10;
+    background-color: rgb(245,245,245,.5); /*dim the background*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Geneva, Tahoma, sans-serif;
+}
+    
+.title{
+    position: top left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(1, 68, 33);
+    margin: auto;
+    text-align: center;
+    height: auto;
+    color: white;
+    font-weight: 50;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Geneva, Tahoma, sans-serif;
+}
+.people{
+    margin: 0, 0, 10px,0; 
+}
+h1{
+    font-size: 18px;
+}
+h2,.title{
+    font-size: 16px;
+}
+.info{
+    font-size: 30px;
+    margin-top: 15;
+    padding-left: 30px;
+}
+.overlay2 {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgb(245,245,245,.5);
+    padding: 5px;
+    height: 90px;
+  }
+img{
+    float: right;    
+    margin: 0 0 0 15px;
+    width: 80px;
+}
