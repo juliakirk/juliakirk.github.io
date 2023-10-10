@@ -15,6 +15,7 @@
     #narrowScreen{
         background-color: purple;
     }
+<<<<<<< Updated upstream
 }
 @media only screen and (min-width: 800px) {
     #wideScreen{
@@ -30,4 +31,6 @@
     #tallScreen{
         background-color: orange;
     }
+=======
+>>>>>>> Stashed changes
 }
