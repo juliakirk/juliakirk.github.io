@@ -16,15 +16,7 @@ body {
     margin: 0 auto;
     max-width: 980px;
   }
-  
-  .grid {
-    margin: 0 auto;
-    padding: 0, 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-  }
-  
+
   nav {
     background-color: #000;
     padding: .5em;
@@ -53,11 +45,27 @@ body {
     padding: 0;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1px;
-    padding-left: 20px;
   }
 
   .feature {
       width: 200px;
       float: left;
       padding: 20px;
+  }
+  @media screen and (min-width: 500px) {
+    .grid {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 980px;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .grid {
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+    }
   }
