@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 20px;
+            text-transform: capitalize;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <button id="date" type="button"> click here</button>
+    <p id="return"></p>
+    <p id="string">Halloween, celebrated on the night of October 31st, is a time of eerie enchantment and playful spookiness. It's a holiday that has evolved from ancient Celtic traditions, marking the end of summer and the beginning of the darker half of the year. Today, Halloween is characterized by costume parties, haunted houses, jack-o'-lanterns, and children trick-or-treating for candies. People of all ages embrace their creativity, transforming into ghouls, witches, superheroes, and other fantastical characters. The air is filled with a sense of mystery and excitement as the world dons a shroud of autumnal colors and a touch of the supernatural, making Halloween a beloved and enchanting celebration for many.</p>
+
+    <script>
+        document.getElementById("date").addEventListener("click", displayDate);
+        document.getElementById("string").addEventListener("click", alertMess);
+        function displayDate() {
+            document.getElementById("return").innerHTML = Date();
+        }
+        function alertMess(){
+              alert('happy halloween!');
+        }
+  
+    </script>
+
+</body>
+</html>
