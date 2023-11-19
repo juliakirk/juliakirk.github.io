@@ -38,6 +38,7 @@ function displayQuote(question) {
 // this function shows the answer
 function displayAnswer() {
     answerTxt.textContent = answer;
+    
 }
 
 // we run getQuote once when the script first loads to populate a question
