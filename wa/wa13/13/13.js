@@ -48,7 +48,7 @@ console.log("Total salary of all employees: " + salaryTotal);
 console.log("problem 5");
 for(let i = 0; i < company['employees'].length; i++){
     if (company['employees'][i].raiseEligible == 'true'){
-       salaryAmount = parseInt(company['employees'][i].salar;y) 
+       salaryAmount = parseInt(company['employees'][i].salary); 
        raiseAmount = salaryAmount * .1;
        salaryAmount += raiseAmount;
        console.log(company['employees'][i].firstName + " recived an raise of "+ raiseAmount+ " their new salary is "+ salaryAmount);
