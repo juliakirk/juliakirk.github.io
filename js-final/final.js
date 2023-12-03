@@ -13,13 +13,13 @@ function random(min, max) {
     var posY = Math.random() * (window.innerHeight - button.clientHeight);
 
     // Set initial direction
-    var directionX = random(-1,1)
-    var directionY = random(-1,1)
+    var directionX = random(-4,4) > 1 ? 4:-4
+    var directionY = random(-4,4) > 1 ? 4:-4
 
     function updatePosition() {
       // Update position
-      posX += 5 * directionX;
-      posY += 5 * directionY;
+      posX += 1 * directionX;
+      posY += 1 * directionY;
 
       // Bounce off the walls
       if (posX <= 0 || posX >= window.innerWidth - button.clientWidth) {
