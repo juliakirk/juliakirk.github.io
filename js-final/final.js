@@ -28,8 +28,8 @@ function posNeg(){
 
     function updatePosition() {
       // Update position
-      posX += .75 * directionX;
-      posY += .75 * directionY;
+      posX += .83 * directionX;
+      posY += .83 * directionY;
 
       // Bounce off the walls
       if (posX <= 0 || posX >= window.innerWidth - button.clientWidth) {
@@ -52,7 +52,7 @@ function posNeg(){
 phoneNumber = '';
     // Add a click event listener to the button
     button.addEventListener("click", function() {
-        if(button.innerText === 'clear'){
+        if(button.innerText === 'Clear'){
             phoneNumber = ""
         }
         else if(phoneNumber.length < 10){
