@@ -41,7 +41,7 @@ function random(min, max) {
     updatePosition();
 phoneNumber = '';
     // Add a click event listener to the button
-    button.addEventListener("click", function() {
+    button.addEventListener("mousedown", function() {
         if(button.innerText === 'Clear'){
             phoneNumber = ""
         }
