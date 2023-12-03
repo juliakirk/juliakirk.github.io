@@ -22,13 +22,13 @@ function posNeg(){
     var posY = Math.random() * (window.innerHeight - button.clientHeight);
 
     // Set initial direction
-    var directionX =random(-5,5)
-    var directionY = random(-5,5)
+    var directionX =random(-4,4)
+    var directionY = random(-4,4)
 
     function updatePosition() {
       // Update position
-      posX += 1 * directionX;
-      posY += 1 * directionY;
+      posX += .75 * directionX;
+      posY += .75 * directionY;
 
       // Bounce off the walls
       if (posX <= 0 || posX >= window.innerWidth - button.clientWidth) {
