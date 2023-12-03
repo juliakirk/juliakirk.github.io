@@ -2,7 +2,7 @@ function random(min, max) {
     const num = Math.floor(Math.random() * (max - min + 1)) + min;
     return num;
   }
-  
+
 function posNeg(){
     val = random(1,10);
     if( val % 2 === 0){
@@ -67,7 +67,7 @@ phoneNumber = '';
   for (let i = 0; i <= 10; i++) {
     
     if(i === 10){
-        createBouncingButton('clear')
+        createBouncingButton('Clear')
     }
     else{
         createBouncingButton(i);
