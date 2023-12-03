@@ -18,8 +18,8 @@ function random(min, max) {
 
     function updatePosition() {
       // Update position
-      posX += .83 * directionX;
-      posY += .83 * directionY;
+      posX += .75 * directionX;
+      posY += .75 * directionY;
 
       // Bounce off the walls
       if (posX <= 0 || posX >= window.innerWidth - button.clientWidth) {
