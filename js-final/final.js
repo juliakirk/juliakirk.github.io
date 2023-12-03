@@ -2,6 +2,15 @@ function random(min, max) {
     const num = Math.floor(Math.random() * (max - min + 1)) + min;
     return num;
   }
+function posNeg(){
+    val = random(1,10);
+    if( val % 2 === 0){
+        return -1
+    }
+    else{
+        return 1
+    }
+}
 
   function createBouncingButton(i) {
     var button = document.createElement("button");
@@ -13,8 +22,8 @@ function random(min, max) {
     var posY = Math.random() * (window.innerHeight - button.clientHeight);
 
     // Set initial direction
-    var directionX = random(-4,4) > 1 ? 4:-4
-    var directionY = random(-4,4) > 1 ? 4:-4
+    var directionX =random(-5,5)
+    var directionY = random(-5,5)
 
     function updatePosition() {
       // Update position
