@@ -1,0 +1,22 @@
+html{
+    background-color:rgb(119, 158, 201,.3) ;
+    font-family:'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+    padding: 100px;
+}
+p{
+    text-align: center;
+}
+button {
+    position: absolute;
+    display:block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px black;
+    color: aliceblue;
+    background-color: black;
+  }
