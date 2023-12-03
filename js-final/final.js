@@ -3,16 +3,6 @@ function random(min, max) {
     return num;
   }
 
-function posNeg(){
-    val = random(1,10);
-    if( val % 2 === 0){
-        return -1
-    }
-    else{
-        return 1
-    }
-}
-
   function createBouncingButton(i) {
     var button = document.createElement("button");
     button.innerHTML = i;
