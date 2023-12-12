@@ -23,8 +23,8 @@ button {
     border: 1px black;
     color: aliceblue;
     background-color: black;
-    font-size: .65em;
-    font-weight: 500;
+    font-size: .7em;
+    font-weight: 600;
   }
   button:hover{
     background-color: rgb(0, 0, 0,.5);
