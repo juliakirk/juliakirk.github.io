@@ -17,9 +17,9 @@ function createBouncingButton(i) {
 
   // Set initial direction between -4 and 4
   console.log("button"+i)
-  var directionX =direction(random(1,8))
+  var directionX =direction(random(1,6))
   console.log(directionX)
-  var directionY = direction(random(1,8))
+  var directionY = direction(random(1,6))
   console.log(directionY)
 
 
@@ -90,28 +90,23 @@ for (let i = 0; i <= 11; i++) {
 }
 // function to set directions so none of the balls would be slow/ stopped
 function direction(randVar){
-  if(randVar === 1){
-    return -4
+
+  if ((randVar === 1)){
+    return -3.2
   }
   else if ((randVar === 2)){
-    return 4
+    return 3.2
   }
   else if ((randVar === 3)){
-    return -3.5
+    return -3.4
   }
   else if ((randVar === 4)){
-    return 3.5
+    return 3.4
   }
   else if ((randVar === 5)){
-    return 4.25
+    return 3.6
   }
   else if ((randVar === 6)){
-    return -4.25
-  }
-  else if ((randVar === 7)){
-    return -3.75
-  }
-  else if ((randVar === 8)){
-    return 3.75
+    return -3.6
   }
 }
